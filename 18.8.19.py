@@ -9,7 +9,7 @@ for age in range(tickets):
     elif age > 25:
         total_cost  += 1390
 if tickets == 0:
-    print("Проходят только дети!",)
+    print("Проходят только дети!")
 else:
     print("Колличество билетов: ", tickets)
 if tickets > 3:
